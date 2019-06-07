@@ -6,7 +6,7 @@ from PIL import Image,ImageTk #Pillow is used for numpy arrays on images.
 
 #Set up GUI
 window = tk.Tk()  # Makes main window
-window.wm_title("Background substraction") 
+window.wm_title("Background subtraction") 
 window.config(background="#FFFFFF")
 imageFrame = tk.Frame(window, width=1000, height=800)
 imageFrame.grid(row=0, column=0, padx=10, pady=2)
