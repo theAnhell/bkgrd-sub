@@ -1,3 +1,3 @@
 # bkgrd-subs
 An application made for Digital Signal Processing (DSP) class. Using Python and OpenCV to turn the background into grayscale and main objects into color.
-![alt text](https://raw.githubusercontent.com/theAnhell/bkgrd-subs/branch/path/to/20190606233613.png)
+![alt text](https://raw.githubusercontent.com/theAnhell/bkgrd-subs/20190606233613.png)
