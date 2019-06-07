@@ -17,7 +17,7 @@ thrvalue=30;
 #starts capturing video and get's first frame from the video, this frame is used later a background reference.
 #A new frame can be chosen using a button.
 #This frame is the original background, if the background is set, any objects that enters the background is highlighted in color, while the background remains black and white.
-cap = cv.VideoCapture(0)
+cap = cv.VideoCapture(0) #change index number in case of multiple cameras.
 _, frame = cap.read()
 temp = cv.cvtColor(frame, cv.COLOR_BGR2RGB)
 gray = cv.cvtColor(temp, cv.COLOR_BGR2GRAY)
